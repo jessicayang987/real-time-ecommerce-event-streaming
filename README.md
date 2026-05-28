@@ -120,4 +120,4 @@ Live streaming dashboards captured during steady-state operation showed **proces
 ---
 
 ## Note on reconciliation lag: 
-Because Gold uses outputMode("append") with a 10-minute watermark, windows are emitted only after the watermark has advanced past their end. In a long-running production stream with continuous arrivals, this lag is imperceptible; in a stopped-producer lab snapshot, the most recent windows remain in pending state until the next event arrives. This trade-off — exact, immutable, idempotent outputs in exchange for emission latency — is the correct choice for downstream BI consumption.
+Because Gold uses outputMode("append") with a 10-minute watermark, windows are emitted only after the watermark has advanced past their end. In a long-running production stream with continuous arrivals, this lag is imperceptible; in a stopped-producer lab snapshot, the most recent windows remain in pending state until the next event arrives. This trade-off — exact, immutable, idempotent outputs in exchange for emission latency is the correct choice for downstream BI consumption.
