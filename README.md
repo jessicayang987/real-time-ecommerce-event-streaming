@@ -102,7 +102,7 @@ Live streaming dashboards captured during steady-state operation showed **proces
 
 ## Tech Stack
 
-- **Languages:** Python 3.10, PySpark, Spark SQL
+- **Languages:** Python, PySpark, Spark SQL
 - **Cloud:** Azure — Event Hubs Standard, Databricks Premium (Unity Catalog), ADLS Gen2
 - **Frameworks:** `confluent-kafka` (producer), Spark Structured Streaming (consumer), Delta Lake
 - **Governance:** Unity Catalog with a managed external location bound to ADLS Gen2 via an Azure Access Connector for Databricks
