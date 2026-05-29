@@ -52,10 +52,11 @@ real-time-ecommerce-event-streaming/
 ├── README.md
 ├── LICENSE
 │
-├── images+video/
+├── images/
 │   ├── 1st_stream_ingestion/
 │   ├── 2nd_stream_ingestion/
-│   └── final_visualization.tif
+│   ├── volume_directory.png
+│   └── final_visualization.png
 │
 └── scripts/
     ├── 01_bronze.ipynb
