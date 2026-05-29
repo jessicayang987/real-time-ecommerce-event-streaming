@@ -123,8 +123,9 @@ End-to-end **exactly-once delivery** was verified by reconciling source-to-sink 
 <img width="3840" height="1808" alt="2" src="https://github.com/user-attachments/assets/b796fb67-f42c-4459-b42a-bea5406cc771" />
 <img width="3838" height="1808" alt="3" src="https://github.com/user-attachments/assets/771b6e81-3834-4674-9e82-6451d5d29115" />
 <img width="3834" height="1818" alt="6" src="https://github.com/user-attachments/assets/59b25764-f8d4-451f-b12d-47d5737e09fb" />          
-<br />
-<br />               
+<br>
+<br /> 
+
 **Result: exact reconciliation across all stages.** The cumulative Bronze count of **56,966** equals the sum of producer-confirmed events **(31,811 + 25,155)**, demonstrating:
 
 1. **Zero data loss** through the Kafka → Event Hubs → Spark → Delta path.
