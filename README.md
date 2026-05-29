@@ -52,7 +52,7 @@ real-time-ecommerce-event-streaming/
 ├── README.md
 ├── LICENSE
 │
-├── portfolio_uploads/
+├── images+video/
 │   ├── 1st_stream_ingestion/
 │   ├── 2nd_stream_ingestion/
 │   └── final_visualization.tif
